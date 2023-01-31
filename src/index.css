@@ -1,13 +1,79 @@
-body {
+.home {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  color: #1e2432;
+  font: .9rem sans-serif;
+  align-items: center;
+  background: url(../public/bg-pic.jpg);
+  background-position: 50%;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  justify-content: center;
 }
-
+p{
+  font-size: 1.2em;
+  font-weight: 400;
+  padding-top: 10%;
+}
+.city{
+  color: #1e2432;
+  font: .9rem sans-serif;
+  background: hsla(0,0%,98%,.85);
+  align-items: center;
+  border-radius: 20px;
+  box-shadow: 10px 10px 5px 0 hsla(0,0%,6%,.404);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 40px 8%;
+}
+.city-name{
+  font-size: 2em;
+  font-weight: bold;
+  padding-top: 10%;
+}
+.city-temp sup{
+  font-size: .65em;
+}
+.city-temp {
+  font-size: 5em;
+  font-weight: bold;
+}
+.city-data{
+  padding-top: 10%;
+}
+pre{
+  padding-bottom: 5%;
+  letter-spacing: .05em;
+  text-transform: uppercase;
+  margin-block-start: 1em;
+}
+.city-name sup{
+  font: .9rem sans-serif;
+  font-size: .5em;
+  background: #ff8c00;
+  border-radius: 30px;
+  color: #fff;
+  margin-left: .2em;
+  padding: .2em .6em;
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+.search{
+  border: none;
+  min-width: 26vw;
+  box-shadow: 10px 10px 5px 0 hsla(0,0%,6%,.404);
+  border-radius: 20px;
+  margin-bottom: 5%;
+  outline: none;
+  padding: 20px 7%;
+  background: hsla(0,0%,98%,.85);
 }
